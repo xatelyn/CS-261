@@ -1,0 +1,46 @@
+== Inserting some into PQ
+
+== Removing some from PQ: first / removed / priority (expected)
+  -   63 /   63 /   63 (  63)
+  -   59 /   59 /   59 (  59)
+  -   58 /   58 /   58 (  58)
+  -   51 /   51 /   51 (  51)
+  -   50 /   50 /   50 (  50)
+  -   44 /   44 /   44 (  44)
+  -   43 /   43 /   43 (  43)
+  -   41 /   41 /   41 (  41)
+
+== Inserting more into PQ
+
+== Removing remaining from PQ: first / removed / priority (expected)
+  -   60 /   60 /   60 (  60)
+  -   56 /   56 /   56 (  56)
+  -   54 /   54 /   54 (  54)
+  -   51 /   51 /   51 (  51)
+  -   46 /   46 /   46 (  46)
+  -   41 /   41 /   41 (  41)
+  -   40 /   40 /   40 (  40)
+  -   39 /   39 /   39 (  39)
+  -   39 /   39 /   39 (  39)
+  -   35 /   35 /   35 (  35)
+  -   35 /   35 /   35 (  35)
+  -   31 /   31 /   31 (  31)
+  -   27 /   27 /   27 (  27)
+  -   26 /   26 /   26 (  26)
+  -   26 /   26 /   26 (  26)
+  -   20 /   20 /   20 (  20)
+  -   17 /   17 /   17 (  17)
+  -   13 /   13 /   13 (  13)
+  -   13 /   13 /   13 (  13)
+  -   10 /   10 /   10 (  10)
+  -    9 /    9 /    9 (   9)
+  -    6 /    6 /    6 (   6)
+  -    6 /    6 /    6 (   6)
+  -    2 /    2 /    2 (   2)
+
+== Is PQ empty (expect 1)? 1
+amazonite:assignment5_solutions dhendrix$ ./unittest
+Test pq_create...                               [   OK   ]
+Test pq_insert_single...                        [   OK   ]
+Test pq_insert_multiple...                      [   OK   ]
+SUCCESS: All unit tests have passed.
